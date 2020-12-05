@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+/**
+*  Reset body margin so the videowrapper can
+*  be full-width and not cause scrollbars.
+*/
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  
+  /* Put the video in the background */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+margin: 0;
+padding: 0;
 }
+
