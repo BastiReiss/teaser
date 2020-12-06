@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Vimeo from '@u-wave/react-vimeo';
-import BTN_muted from './BTN_muted.svg';
-import BTN_unmuted from './BTN_unmuted.svg';
+import MuteBtn from './components/MuteBTN';
 
 //
 function App() {
@@ -16,10 +15,12 @@ function App() {
      // e.target.src ={BTN_unmuted};
       Vimeo.muted =! Vimeo.muted;
   }
-  const muteVideo = () =>{
-    console.log(Vimeo.video);
-    // e.target.src ={BTN_unmuted};//
-     Vimeo.muted =! Vimeo.muted;
+  const muteVideo = (e) =>{
+    console.log(e.target.src);
+    e.target.src ='BTN_unmuted';
+    var vimeo = document.querySelector('Vimeo');
+    console.log(vimeo);
+     //vimeo.muted =! Vimeo.muted;
   }
 
   return (
@@ -31,8 +32,7 @@ function App() {
       <div class="flex h-screen">
         <div class="m-auto">
           <h1 class="text-blue-900" > CIVA FESTIVAL </h1>
-          <input onClick={muteVideo} alt="btnmuted" type="image" src={BTN_muted}>
-          </input>
+          <MuteBtn alt="btnmuted" type="image"></MuteBtn>
         </div>
       </div>
     </div>
