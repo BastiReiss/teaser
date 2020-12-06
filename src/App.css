@@ -41,6 +41,51 @@ h1 {
   padding-bottom: 5vh;
 }
 
+.player{
+  margin-top: 70vh;
+}
+
 muteBTN:hover{
   cursor: pointer;
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    width: 80px;
+    -webkit-appearance: none;
+    background-color: #57eeff;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #ff4141;
+    margin-top: -1px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: #1a1818;
+    box-shadow: -80px 0 0 80px #ff4141;
+  }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+background-color: #ff4141; 
+}
+input[type="range"]::-moz-range-track {  
+background-color: #57eeff;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+background-color: #ff4141; 
+}
+input[type="range"]::-ms-fill-upper {  
+background-color: #57eeff;
 }

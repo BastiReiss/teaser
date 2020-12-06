@@ -57,7 +57,6 @@ class App extends React.Component {
         video="76979871" controls="false" title="false" sidedock="false" allow="autoplay; fullscreen" loop />
       </div>
       <div class="flex h-screen">
-        <label><image alt="muted" src={BTN_muted}/></label>
         <div class="m-auto">
         <div id="player">
           <i class="fa fa-volume-down"></i>
