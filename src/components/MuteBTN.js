@@ -13,7 +13,7 @@ class MuteBtn extends React.Component {
   }
   toggleImage = () => {
     this.setState(state => ({ open: !state.open }))
-    console.log(this.src);
+    //console.log(this.props.muted);
   }
 
   getImageName = () => this.state.open ? 'plus' : 'minus'
@@ -22,7 +22,7 @@ class MuteBtn extends React.Component {
     const imageName = this.getImageName();
     return (
       <div>
-        <img style={{maxWidth: '50px'}} src={imagesPath[imageName]} onClick={this.toggleImage} />
+        <img class="pointer" style={{maxWidth: '50px'}} src={imagesPath[imageName]} onClick={this.toggleImage} />
       </div>
     );
   }

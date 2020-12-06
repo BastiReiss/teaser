@@ -40,3 +40,7 @@ h1 {
   padding-top: 70vh;
   padding-bottom: 5vh;
 }
+
+muteBTN:hover{
+  cursor: pointer;
+}
