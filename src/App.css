@@ -51,7 +51,7 @@ muteBTN:hover{
 
 .controls{
   position: relative;
-  top: 90vh;
+  top: 85vh;
 }
 
 [class^="icon-"], [class*=" icon-"] {
