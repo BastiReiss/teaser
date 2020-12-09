@@ -13,11 +13,15 @@ class App extends React.Component {
     super(props);
 //props
     this.state = {
-      videoIndex: 0,
+      videoId: 76979871,
       volume: 0,
       muted: true
     };
-
+/*
+video IDs:
+test: 76979871
+civaTrailer: 489109103
+*/
     this.handleMuted = this.handleMuted.bind(this);
     this.handleVolume = this.handleVolume.bind(this);
 
@@ -49,12 +53,12 @@ class App extends React.Component {
 
 
   render (){
-    const { videoIndex, muted, volume } = this.state;
+    const { videoId, muted, volume } = this.state;
     return(
     <div className="App">
       <div class="videowrapper">
       <Vimeo  volume={volume} muted={muted} width="500" height="281" background="1" frameborder="0" 
-        video="76979871" controls="false" title="false" sidedock="false" allow="autoplay; fullscreen" loop />
+        video={videoId} controls="false" title="false" sidedock="false" allow="autoplay; fullscreen" loop />
       </div>
       <div class="flex controls">
         <div class="m-auto">
