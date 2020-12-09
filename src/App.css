@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -16,6 +18,7 @@
   body {
      max-height: 100vh;
      overflow-y: hidden;
+     overflow-x: hidden;
   }
 }
 
