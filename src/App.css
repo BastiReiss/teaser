@@ -13,9 +13,11 @@
   }
 }
 @media screen and (max-width: 480px) {
+  html, body {
+    overflow-x: hidden;
+  }
   body {
-     max-height: 100vh;
-     overflow-y: hidden;
+    position: relative;
   }
 }
 
