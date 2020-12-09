@@ -56,9 +56,9 @@ class App extends React.Component {
       <Vimeo  volume={volume} muted={muted} width="500" height="281" background="1" frameborder="0" 
         video="76979871" controls="false" title="false" sidedock="false" allow="autoplay; fullscreen" loop />
       </div>
-      <div class="flex h-screen">
+      <div class="flex controls">
         <div class="m-auto">
-        <div id="player">
+        <div id="player" className="grid grid-cols-3 gap-2 place-content-center">
           <i class="fa fa-volume-down"></i>
           <div id="volume">
             <input
@@ -73,7 +73,6 @@ class App extends React.Component {
           <i class="fa fa-volume-up"></i>
         </div>
         </div>
-        <label><image alt="muted" src={BTN_unmuted}/></label>
       </div>
     </div>
   );

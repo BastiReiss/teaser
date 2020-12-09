@@ -49,19 +49,32 @@ muteBTN:hover{
   cursor: pointer;
 }
 
-/*Chrome*/
+.controls{
+  position: relative;
+  top: 90vh;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  width: 100%;
+}
+
+#player {
+  text-align:center;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   input[type='range'] {
     overflow: hidden;
-    width: 80px;
+    width: 5vw;
     -webkit-appearance: none;
-    background-color: #57eeff;
+    background-color: #ff7d41;
   }
   
   input[type='range']::-webkit-slider-runnable-track {
     height: 10px;
     -webkit-appearance: none;
-    color: #ff4141;
+    color: #57ffd5;
     margin-top: -1px;
   }
   
@@ -71,21 +84,83 @@ muteBTN:hover{
     height: 10px;
     cursor: ew-resize;
     background: #1a1818;
-    box-shadow: -80px 0 0 80px #ff4141;
+    box-shadow: -80px 0 0 80px #57ffd5;
   }
 
+  
 }
-/** FF*/
+
 input[type="range"]::-moz-range-progress {
-background-color: #ff4141; 
+background-color: #57ffd5; 
 }
 input[type="range"]::-moz-range-track {  
-background-color: #57eeff;
+background-color: #ff7d41;
 }
-/* IE*/
+
 input[type="range"]::-ms-fill-lower {
-background-color: #ff4141; 
+background-color: #57ffd5; 
 }
 input[type="range"]::-ms-fill-upper {  
-background-color: #57eeff;
+background-color: #ff7d41;
 }
+
+#player	i {
+  
+  color: rgb(247, 236, 236);
+}
+
+#player	i.fa-volume-down {
+  
+}
+
+#player	i.fa-volume-up {
+  
+}
+
+
+
+
+
+
+
+/* Slider 
+
+#player {
+	width: 350px;
+	height: 50px;
+	position: relative;
+	margin: 0 auto;
+	top: 80px;
+}	
+
+#volume {
+	position: absolute;
+	left: 24px;
+	margin: 0 auto;
+	height: 5px;
+	width: 300px;
+	background: #555;
+	border-radius: 15px;
+}
+#volume	.ui-slider-range-min {
+		height: 5px;
+		width: 300px;
+		position: absolute;
+		background: #2ecc71;
+		border: none;
+		border-radius: 10px;
+  	outline: none;
+	}
+	
+#volume	.ui-slider-handle {
+		width: 20px;
+  	height: 20px;
+		border-radius: 20px;
+  	background: #FFF;
+  	position: absolute;
+  	margin-left: -8px;
+  	margin-top: -8px;
+  	cursor: pointer;
+  	outline: none;
+  }
+  */
