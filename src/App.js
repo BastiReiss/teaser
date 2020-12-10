@@ -3,7 +3,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Vimeo from '@u-wave/react-vimeo';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import MuteBtn from './components/MuteBTN';
 //import BTN_muted from './BTN_muted.svg';
 //import BTN_unmuted from './BTN_unmuted.svg';
@@ -74,7 +73,7 @@ civaTrailer: 489109103
       </div>
       <div class="flex controls">
         <div class="m-auto">
-        <div id="player" className="grid grid-cols-3 gap-2 justify-center">
+        <div id="player" className="grid grid-cols-3 gap-2 place-content-center">
           <a href="#" className={'speaker ' + (active ? 'umute' : 'mute')}
              onClick={this.handleVolume} >
               <span></span>
