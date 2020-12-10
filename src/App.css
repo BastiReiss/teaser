@@ -71,12 +71,6 @@ input:hover{
 }
 
 
-
-
-#info{
-  margin-left: 80vw;
-}
-
 .speaker {
   height: 30px;
   width: 30px;
@@ -84,7 +78,6 @@ input:hover{
   overflow: hidden;
   display: inline-block;
   /*stay on 100*/
-  opacity: 42%;
 }
 
 .speaker span {
@@ -124,7 +117,7 @@ input:hover{
 }
 .speaker.mute span:before {
   transform: scale(.5) translate(-15px, 0) rotate(36deg);
-  opacity: 0;
+  opacity: 0%;
 }
 body {
   color: #fff;
@@ -139,46 +132,3 @@ body {
 
 
 
-
-
-/* Slider 
-
-#player {
-	width: 350px;
-	height: 50px;
-	position: relative;
-	margin: 0 auto;
-	top: 80px;
-}	
-
-#volume {
-	position: absolute;
-	left: 24px;
-	margin: 0 auto;
-	height: 5px;
-	width: 300px;
-	background: #555;
-	border-radius: 15px;
-}
-#volume	.ui-slider-range-min {
-		height: 5px;
-		width: 300px;
-		position: absolute;
-		background: #2ecc71;
-		border: none;
-		border-radius: 10px;
-  	outline: none;
-	}
-	
-#volume	.ui-slider-handle {
-		width: 20px;
-  	height: 20px;
-		border-radius: 20px;
-  	background: #FFF;
-  	position: absolute;
-  	margin-left: -8px;
-  	margin-top: -8px;
-  	cursor: pointer;
-  	outline: none;
-  }
-  */
