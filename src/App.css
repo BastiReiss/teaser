@@ -71,7 +71,6 @@ input:hover{
   overflow: hidden;
   display: inline-block;
   /*stay on 100*/
-  opacity: 100%;
 }
 
 .speaker span {
