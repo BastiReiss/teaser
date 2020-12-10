@@ -80,7 +80,7 @@ input:hover{
   position: relative;
   overflow: hidden;
   display: inline-block;
-  opacity: 70%;
+  opacity: 100%;
 }
 .speaker span {
   display: block;
