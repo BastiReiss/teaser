@@ -60,6 +60,9 @@ input:hover{
 #player{
   margin-right: 80vw;
 }
+#info{
+  margin-left: 80vw;
+}
 
 .speaker {
   height: 30px;
@@ -69,6 +72,7 @@ input:hover{
   display: inline-block;
   opacity: 100%;
 }
+
 .speaker span {
   display: block;
   width: 8px;
