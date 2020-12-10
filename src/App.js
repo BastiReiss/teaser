@@ -74,13 +74,11 @@ civaTrailer: 489109103
       <div class="flex controls">
         <div class="m-auto">
         <div id="player" className="grid grid-cols-3 gap-2 place-content-center">
-          <i class="fa fa-volume-down"></i>
           <a href="#" className={'speaker ' + (active ? 'umute' : 'mute')}
              onClick={this.handleVolume} >
               <span></span>
           </a>
           </div>
-          <i class="fa fa-volume-up"></i>
         </div>
         </div>
       </div>
