@@ -73,7 +73,7 @@ civaTrailer: 489109103
       </div>
       <div class="flex controls">
         <div class="m-auto">
-        <div id="player" className="grid grid-cols-3 gap-2 place-content-center">
+        <div id="player" className="grid grid-cols-3 gap-2 justify-end">
           <a href="#" className={'speaker ' + (active ? 'umute' : 'mute')}
              onClick={this.handleVolume} >
               <span></span>

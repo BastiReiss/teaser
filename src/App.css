@@ -39,14 +39,6 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 h1 {
   padding-top: 70vh;
   padding-bottom: 5vh;
@@ -62,16 +54,11 @@ input:hover{
 
 .controls{
   position: relative;
-  top: 80vh;
+  top: 10vh;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  display: inline-block;
-  width: 100%;
-}
-
-#player {
-  text-align:center;
+#player{
+  margin-right: 80vw;
 }
 
 .speaker {
@@ -129,71 +116,6 @@ body {
 }
 
 
-body {
-  color: #fff;
-  font-family: arial, sans-sarif;
-  background-color: #333;
-  text-align: center;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  input[type='range'] {
-    overflow: hidden;
-    min-width: 100px;
-    width: 5vw;
-    -webkit-appearance: none;
-    background-color: #ff7d41;
-  }
-  
-  input[type='range']::-webkit-slider-runnable-track {
-    height: 10px;
-    -webkit-appearance: none;
-    color: #57ffd5;
-    margin-top: -1px;
-  }
-  
-  input[type='range']::-webkit-slider-thumb {
-    width: 10px;
-    -webkit-appearance: none;
-    height: 10px;
-    cursor: ew-resize;
-    background: #1a1818;
-    box-shadow: -80px 0 0 80px #57ffd5;
-  }
-
-  
-}
-
-input[type="range"]::-moz-range-progress {
-background-color: #57ffd5; 
-}
-input[type="range"]::-moz-range-track {  
-background-color: #ff7d41;
-}
-
-input[type="range"]::-ms-fill-lower {
-background-color: #57ffd5; 
-}
-input[type="range"]::-ms-fill-upper {  
-background-color: #ff7d41;
-}
-
-#player	i {
-  
-  color: rgb(247, 236, 236);
-}
-
-#player	i.fa-volume-down {
-  
-}
-
-#player	i.fa-volume-up {
-  
-}
-
-i{
-  visibility: hidden;
-}
 
 
 
