@@ -15,7 +15,8 @@ class App extends React.Component {
     this.state = {
       videoId: 171084582,
       volume: 0,
-      muted: true
+      muted: true,
+      active: false
     };
 /*
 video IDs:
@@ -39,10 +40,18 @@ civaTrailer: 489109103
     });
   }
   handleVolume(event) {
-    console.log(this.volume);
-    this.setState({
-      volume: parseFloat(event.target.value),
-    });
+    if(this.state.volume == 0){
+      this.setState({
+        /*volume: parseFloat(event.target.value),*/
+        volume: 0.9,
+      });
+    }else{
+      this.setState({
+        /*volume: parseFloat(event.target.value),*/
+        volume: 0,
+      });
+    }
+    console.log(this.state.volume);
   }
 
 
@@ -53,7 +62,7 @@ civaTrailer: 489109103
 
 
   render (){
-    const { videoId, muted, volume } = this.state;
+    const { videoId, muted, volume,active } = this.state;
     return(
     <div className="App">
       <div class="videowrapper">
@@ -64,21 +73,13 @@ civaTrailer: 489109103
         <div class="m-auto">
         <div id="player" className="grid grid-cols-3 gap-2 place-content-center">
           <i class="fa fa-volume-down"></i>
-          <div id="volume">
-            <input
-                    type="range"
-                    value={volume}
-                    min={0}
-                    max={1}
-                    step={0.01}
-                    onChange={this.handleVolume}
-                  />
+          <button className={this.state.active && 'active'}
+          onClick={ () => this.setState({active: !this.state.active}) } onClick={this.handleVolume}>sound</button>
           </div>
           <i class="fa fa-volume-up"></i>
         </div>
         </div>
       </div>
-    </div>
   );
   }
 }
