@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
 import Vimeo from '@u-wave/react-vimeo';
 //import MuteBtn from './components/MuteBTN';
-import BTN_muted from './BTN_muted.svg';
-import BTN_unmuted from './BTN_unmuted.svg';
+//import BTN_muted from './BTN_muted.svg';
+//import BTN_unmuted from './BTN_unmuted.svg';
 
 //
 class App extends React.Component {
@@ -40,6 +40,7 @@ civaTrailer: 489109103
     });
   }
   handleVolume(event) {
+
     if(this.state.volume == 0){
       this.setState({
         /*volume: parseFloat(event.target.value),*/
@@ -51,7 +52,8 @@ civaTrailer: 489109103
         volume: 0,
       });
     }
-    console.log(this.state.volume);
+    this.setState({active: !this.state.active});
+    console.log(this.state.active);
   }
 
 
@@ -73,8 +75,10 @@ civaTrailer: 489109103
         <div class="m-auto">
         <div id="player" className="grid grid-cols-3 gap-2 place-content-center">
           <i class="fa fa-volume-down"></i>
-          <button className={this.state.active && 'active'}
-          onClick={ () => this.setState({active: !this.state.active}) } onClick={this.handleVolume}>sound</button>
+          <a href="#" className={'speaker ' + (active ? 'umute' : 'mute')}
+             onClick={this.handleVolume} >
+              <span></span>
+          </a>
           </div>
           <i class="fa fa-volume-up"></i>
         </div>
