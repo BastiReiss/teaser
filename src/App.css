@@ -57,9 +57,21 @@ input:hover{
   top: 10vh;
 }
 
-#player{
-  margin-right: 80vw;
+@media screen and (min-width: 480px) {
+  #player{
+    margin-right: 45vw;
+  }
 }
+
+@media screen and (max-width: 480px) {
+  #player{
+    margin-right: 45vw;
+  }
+}
+
+
+
+
 #info{
   margin-left: 80vw;
 }
@@ -71,6 +83,7 @@ input:hover{
   overflow: hidden;
   display: inline-block;
   /*stay on 100*/
+  opacity: 42%;
 }
 
 .speaker span {
