@@ -77,17 +77,11 @@ civaTrailer: 489109103
         <div id="player" className="grid grid-cols-3 gap-2 justify-center">
           <a href="#" className={'speaker ' + (active ? 'umute' : 'mute')}
              onClick={this.handleVolume} >
-              <span>hello</span>
+              <span></span>
           </a>
           </div>
-          <div id="info" className="grid grid-cols-3 gap-2 justify-center">
-          <a href="#" className={'info ' + (active ? 'umute' : 'mute')}
-             onClick={this.handleVolume} >
-              <span>hello</span>
-          </a>
         </div>
         </div>
-      </div>
       </div>
   );
   }

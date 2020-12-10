@@ -70,6 +70,7 @@ input:hover{
   position: relative;
   overflow: hidden;
   display: inline-block;
+  /*stay on 100*/
   opacity: 100%;
 }
 
