@@ -57,15 +57,16 @@ input:hover{
   top: 10vh;
 }
 
-@media screen and (min-width: 480px) {
+
+@media screen and (max-width: 480px) {
   #player{
     margin-right: 45vw;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   #player{
-    margin-right: 45vw;
+    margin-right: 80vw;
   }
 }
 
