@@ -13,7 +13,7 @@ class App extends React.Component {
     super(props);
 //props
     this.state = {
-      videoId: 171084582,
+      videoId: 489776978,
       volume: 0,
       muted: true,
       active: false
@@ -21,7 +21,7 @@ class App extends React.Component {
 /*
 video IDs:
 test: 76979871
-civaTrailer: 489109103
+civaTrailer: 489776978
 */
     this.handleMuted = this.handleMuted.bind(this);
     this.handleVolume = this.handleVolume.bind(this);
