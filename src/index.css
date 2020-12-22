@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Marguertite';
+  src: local('Marguertite'), url(./static/fonts/margueritegrotesk-medium-webfont.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Nostra';
+  src: local('Nostra'), url(./static/fonts/Nostra-Stream-Web.woff2) format('woff2');
+}
+
 @layer base {
   h1 {
     @apply text-2xl;
@@ -38,6 +48,7 @@
 body {
 margin: 0;
 padding: 0;
+font-family: "Nostra"
 }
 
 

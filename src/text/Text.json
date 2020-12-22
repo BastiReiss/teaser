@@ -1,0 +1,20 @@
+{
+  "name": "civa",
+  "version": "0.1.0",
+  "text_mobile": {
+    "h1": "CIVA ",
+    "subh1": "Contemporary Immersive Virtual Art",
+    "date": "February, 19 – 27, 2021 (virtual)",
+    "caption": "ABOUT",
+    "main":  "CIVA, Vienna’s new media art festival, aims at strengthening the potential of artistic approaches in interaction with science, technology, and society. Under the title »Social Distancing – Virtual Bonding«, CIVA in 2021 explores the question of whether and how current technologies enable us to remain connected to each other on a virtual level in times of physical distance, or even to build new international networks and communities. For this purpose, CIVA – in view of the current situation of a worldwide pandemic – in 2021 particularly claims space in the virtual.  During the nine-day festival, various artistic and discursive formats will examine current media and recent technologies to see how they serve or harm our society – or in any case how they change it. ",
+    "caption2": "Partners",
+    "sub": "funded by Stadt Wien Kultur",
+    "sub2": "supported by Vienna Business Agency"
+  },
+  "text_desktop": {
+    "h1": "CIVA ",
+    "date": "February, 19 – 27, 2021 (virtual)",
+    "caption1": "Contemporary Immersive Virtual Art",
+    "main": "CIVA, Vienna’s new media art festival, aims at strengthening the potential of artistic approaches in interaction with science, technology, and society.Under the title »Social Distancing – Virtual Bonding«, CIVA in 2021 explores the question of whether and how current technologies enable us to remain connected to each other on a virtual level in times of physical distance, or even to build new international networks and communities. For this purpose, CIVA – in view of the current situation of a worldwide pandemic – in 2021 particularly claims space in the virtual.  During the nine-day festival, various artistic and discursive formats will examine current media and recent technologies to see how they serve or harm our society – or in any case how they change it. "
+  }
+}
