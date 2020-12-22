@@ -8,12 +8,12 @@
 }
 @font-face {
   font-family: 'Marguerite_regular';
-  src: local('Marguerite'), url(./static/fonts/margueritegrotesk-regular-webfont.woff2) format('woff2');
+  src: local('Marguerite_regular'), url(./static/fonts/margueritegrotesk-regular-webfont.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'Nostra';
-  src: local('Nostra'), url(./static/fonts/nostra-stream-webfont.woff2) format('woff2');
+  font-family: 'nostra-stream-webfont';
+  src: local('nostra-stream-webfont'), url(./static/fonts/nostra-stream-webfont.woff2) format('woff2');
 }
 
 @layer base {

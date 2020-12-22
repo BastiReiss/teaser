@@ -6,7 +6,7 @@ body {
   font-size: 10px;
 }
 body h1{
-  font-family: Nostra;
+  font-family: nostra-stream-webfont;
 }
 
 @media screen and (max-width: 800px) {
@@ -189,12 +189,10 @@ body h1{
   }
 
   #info_left h1{
-    font-family: Nostra;
     font-size: 4em;
     margin-top: 15vh;
   }
   #info_right h1{
-    font-family: Nostra;
     font-size: 1.4em;
     margin-top: 5vh;
   }
@@ -293,12 +291,10 @@ body h1{
   }
 
   #info_left h1{
-    font-family: Nostra;
     font-size: 5.4em;
     margin-top: 20vh;
   }
   #info_right h1{
-    font-family: Nostra;
     font-size: 3.4em;
     margin-top: 10vh;
   }
