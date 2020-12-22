@@ -52,7 +52,10 @@
 body {
 margin: 0;
 padding: 0;
-font-family: "Nostra"
+font-family: "Marguerite_regular"
+}
+body h1{
+  font-family: "Marguerinostra-stream-webfont"
 }
 
 
