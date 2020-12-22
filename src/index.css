@@ -3,37 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'nostra_v1.0stream';
-  src: url('./static/fonts/nostra-stream-web-webfont.woff2') format('woff2'),
-       url('./static/fonts/nostra-stream-web-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+  font-family: 'Marguerite';
+  src: local('Marguerite'), url(./static/fonts/margueritegrotesk-medium-webfont.woff2) format('woff2');
 }
-
-
-
 
 @font-face {
-  font-family: 'marguerite_groteskmedium';
-  src: url('./static/fonts/margueritegrotesk-medium-webfont.woff2') format('woff2'),
-       url('./static/fonts/margueritegrotesk-medium-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+  font-family: 'Nostra';
+  src: local('Nostra'), url(./static/fonts/nostra-stream-webfont.woff2) format('woff2');
 }
-
-
-
-
-@font-face {
-  font-family: 'marguerite_groteskregular';
-  src: url('./static/fonts/margueritegrotesk-regular-webfont.woff2') format('woff2'),
-       url('./static/fonts/margueritegrotesk-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 @layer base {
   h1 {
