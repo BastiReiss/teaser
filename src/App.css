@@ -1,12 +1,12 @@
 body {
   color: #fff;
-  font-family: Marguerite, sans-serif;
+  font-family: Marguerite_regular;
   background-color: #333;
   text-align: center;
   font-size: 10px;
 }
 body h1{
-  font-family: Nostra-Stream-Web, sans-serif;
+  font-family: Nostra;
 }
 
 @media screen and (max-width: 800px) {
@@ -189,10 +189,12 @@ body h1{
   }
 
   #info_left h1{
+    font-family: Nostra;
     font-size: 4em;
     margin-top: 15vh;
   }
   #info_right h1{
+    font-family: Nostra;
     font-size: 1.4em;
     margin-top: 5vh;
   }
@@ -236,7 +238,7 @@ body h1{
 
   #overlay img{
     align-items: center;
-    margin: 5vh 10vw;
+    margin: 5vh 25vw;
     max-width: 128px;
     height: auto;
     opacity: 1;
@@ -291,10 +293,12 @@ body h1{
   }
 
   #info_left h1{
+    font-family: Nostra;
     font-size: 5.4em;
     margin-top: 20vh;
   }
   #info_right h1{
+    font-family: Nostra;
     font-size: 3.4em;
     margin-top: 10vh;
   }
