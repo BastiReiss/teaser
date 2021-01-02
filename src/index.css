@@ -19,14 +19,7 @@
   url(./static/fonts/nostra-stream-webfont.woff2) format('woff2');
 }
 
-@layer base {
-  h1 {
-    @apply text-2xl;
-  }
-  h2 {
-    @apply text-xl;
-  }
-}
+
 /**
 *  Reset body margin so the videowrapper can
 *  be full-width and not cause scrollbars.
