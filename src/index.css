@@ -4,16 +4,19 @@
 
 @font-face {
   font-family: 'Marguerite';
-  src: local('Marguerite'), url(./static/fonts/margueritegrotesk-medium-webfont.woff2) format('woff2');
+  src: local('Marguerite'), url(./static/fonts/margueritegrotesk-medium-webfont.woff) format('woff'),
+  url(./static/fonts/margueritegrotesk-medium-webfont.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Marguerite_regular';
-  src: local('Marguerite_regular'), url(./static/fonts/margueritegrotesk-regular-webfont.woff2) format('woff2');
+  src: local('Marguerite'), url(./static/fonts/margueritegrotesk-regular-webfont.woff) format('woff'),
+  url(./static/fonts/margueritegrotesk-regular-webfont.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'nostra-stream-webfont';
-  src: local('nostra-stream-webfont'), url(./static/fonts/nostra-stream-webfont.woff2) format('woff2');
+  font-family: 'Nostra';
+  src: local('Nostra'), url(./static/fonts/nostra-stream-webfont.woff) format('woff'),
+  url(./static/fonts/nostra-stream-webfont.woff2) format('woff2');
 }
 
 @layer base {
@@ -52,10 +55,6 @@
 body {
 margin: 0;
 padding: 0;
-font-family: "Marguerite_regular"
-}
-body h1{
-  font-family: "Marguerinostra-stream-webfont"
 }
 
 
