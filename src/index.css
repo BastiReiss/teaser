@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* fonts imports */
 @font-face {
   font-family: 'Marguerite';
   src: local('Marguerite'), url(./static/fonts/margueritegrotesk-medium-webfont.woff) format('woff'),
@@ -17,6 +17,17 @@
   font-family: 'Nostra';
   src: local('Nostra'), url(./static/fonts/nostra-stream-webfont.woff) format('woff'),
   url(./static/fonts/nostra-stream-webfont.woff2) format('woff2');
+}
+/* fonts body */
+body {
+  color: #fff;
+  font-family: 'Marguerite_regular', Marguerite_regular, 'Nostra', Nostra, sans-serif;
+  background-color: #333;
+  text-align: center;
+  font-size: 10px;
+}
+body h1{
+  font-family: 'Nostra', Nostra ;
 }
 
 
