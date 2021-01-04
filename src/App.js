@@ -100,8 +100,8 @@ civaTrailer: 489776978
           </h1>
           <div>
             <div>
-            <span className="text-3l">sponsored by Wien Kultur</span>
-            <span className="text-3l">supported by VBA</span>
+            <span className="text-3l">{text.text_mobile.sub}</span>
+            <span className="text-3l">{text.text_mobile.sub2}</span>
             </div>
             <div className="partner_images">
             <img className="logo" src={wien_logo} alt="wien_logo"></img>  <img className="logo" src={vba_logo} alt="wien_logo"></img>  

@@ -30,6 +30,11 @@ body h1{
   font-family: 'Nostra', Nostra ;
 }
 
+body p{
+  font-family: 'Marguerite_regular', Marguerite ;
+  font-weight: 200;
+}
+
 
 /**
 *  Reset body margin so the videowrapper can

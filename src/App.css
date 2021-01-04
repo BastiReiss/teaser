@@ -188,7 +188,7 @@
   }
   #info_right h1{
     font-size: 1.4em;
-    margin-top: 5vh;
+    margin-top: 2vh;
   }
 
   #overlay h2{
@@ -211,12 +211,16 @@
   }
 
   #overlay p{
-    margin-top: 10vh;
+    font-family: 'Marguerite_regular', Marguerite ;
+    font-weight: 200;
+    margin-top: 1vh;
     margin-bottom: 15vh;
-    font-size: 1.05em;
+    font-size: 0.90em;
     text-align: left;
     line-height: 1.5em;
     letter-spacing: 0.07em;
+    text-align: left;
+    hyphens: none;
   }
 
 
